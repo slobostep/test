@@ -1,19 +1,17 @@
-
-
 .main{
-    background: rgb(240, 240, 240);
-    // display: flex;
-    // justify-content: center;
+ background: rgb(240, 240, 240);
+ // display: flex;
+ // justify-content: center;
 
-    &__left{
-        color: white;
-        width: 200px;  
-        height: 200px;
-    }
+ &__left{
+  color: white;
+  width: 200px;  
+  height: 200px;
+ }
 
-    &__right{
-        width: 200px;
-        height: 200px;
-        color: red;
-    }
+ &__right{
+  width: 200px;
+  height: 200px;
+  color: red;
+ }
 }
