@@ -1,16 +1,16 @@
 
-.header{
- background: rgb(45, 37, 32);
+.header {
+ background: $header-background;
  height: 80pxa;
 
- &__wrapper{
+ &__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
  }
 
- &__logo{
+ &__logo {
   width: 100px;
   height: 50px;
   display: flex;
@@ -22,24 +22,24 @@
   }
  }
  
- &__nav{      
-  ul{
+ &__nav {      
+  ul {
    list-style:none;
    display: flex;
-   li{  
+   li {  
     margin-right: 2em; 
-    a{
+    a {
      text-transform: uppercase;
-     color: white;
+     color: $text-color;
      text-decoration: none;
     }
    }
   }
  }
 
- &__search-button{
+ &__search-button {
   .fa-search {
-   color: white;
+   color: $text-color;
   }
  }  
 }

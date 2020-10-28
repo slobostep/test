@@ -1,16 +1,12 @@
-@mixin nodecor {
- text-decoration: none;
- text-align: center;
- color: white;
-}
 
 .sub-header {
- background: rgb(236, 91, 0);
+ background: $sub-header-background;
  padding-bottom: 0.5em;
 
  .sub-underline {
-  background: rgb(255, 98, 0);
+  background: $sub-underline-background;
  }
+
  &__wrapper {
   display: flex;
   justify-content: center;
@@ -24,6 +20,7 @@
    }
    margin-right: 1em;
   }
+  
   h4 {
    a {
     @include nodecor();
