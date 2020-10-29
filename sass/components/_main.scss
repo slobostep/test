@@ -1,0 +1,16 @@
+.main {
+  background: $main-background;
+  // display: flex;
+  // justify-content: center;
+
+  &__left {
+    color: $text-color;
+    width: 200px;  
+    height: 200px;
+  }
+
+  &__right {
+    width: 200px;
+    height: 200px;
+  }
+}
